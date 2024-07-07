@@ -7,5 +7,4 @@ const addBtn = document.getElementById('add-btn');
 const clearBtn = document.getElementById('clear-btn');
 const markPurchasedBtn = document.getElementById('markPurchasedButton');
 
-// Making text area clear after clicking add item.
 
