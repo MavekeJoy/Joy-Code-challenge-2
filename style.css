@@ -1,0 +1,53 @@
+body{
+    background-color: grey;}
+
+
+
+h1{
+
+    text-decoration: underline ;
+    font-size: 55px;
+    font-style: italic;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+
+.list-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 600px;
+    height: 100px;
+    background-color: antiquewhite;
+  
+}
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+button{
+    cursor: pointer;
+    margin-left: 20px;
+}
+#add-btn{
+    background-color:green;
+    color: white;
+}
+#clear-btn{
+    background-color: red;
+    color: white;
+}
+#mark-btn{
+    background-color: rgb(74, 15, 212);
+    color: white;
+}
